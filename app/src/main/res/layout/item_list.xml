@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/myitem_list_ID"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/main_card_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/cardview_light_background"
+        android:layout_margin="8dp"
+        >
+
+    <TextView
+        android:id="@+id/item_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Title"
+        android:textSize="24dp"
+        android:textColor="#000"
+        android:padding="8dp"
+        android:background="@color/cardview_light_background"
+        android:layout_margin="8dp"
+        />
+    </androidx.cardview.widget.CardView>
+</RelativeLayout>
